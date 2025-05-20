@@ -25,11 +25,11 @@ Developed with **Streamlit**, **OpenCV**, and **Ultralytics YOLOv8**, the app pr
 -  Upload and process video files (`.mp4`, `.avi`, `.mov`)
 -  Object detection and segmentation using **YOLOv8-seg**
 -  Background replacement with:
-  * Solid color
-  * Blur effect
-  * Cartoon effect
-  * Transparent background
-  * Custom image
+      * Solid color
+      * Blur effect
+      * Cartoon effect
+      * Transparent background
+      * Custom image
 -  Video preview and download after processing
 
 ---
