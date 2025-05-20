@@ -1,5 +1,5 @@
 streamlit>=1.28.0
-opencv-python-headless==4.9.0.80
-numpy==1.26.4
-ultralytics==8.1.0
-Pillow==10.3.0
+opencv-python-headless>=4.9.0
+numpy>=1.26.0
+ultralytics>=8.0.0
+Pillow>=10.0.0  # Version plus récente pour compatibilité Python 3.13
