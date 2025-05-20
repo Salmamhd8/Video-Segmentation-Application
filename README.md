@@ -9,7 +9,7 @@ Developed with **Streamlit**, **OpenCV**, and **Ultralytics YOLOv8**, the app pr
 ## Repository Structure
 
   ```bash
-  your-repo/
+  Video-segmentation-Application/
   ├── video_segmentation.py                  # Main Streamlit application script
   ├── README.md               # Project documentation (this file)
   ├── video_presentation.md  # Final 7-minute video presentation
