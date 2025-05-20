@@ -17,7 +17,7 @@ Developed with **Streamlit**, **OpenCV**, and **Ultralytics YOLOv8**, the app pr
   │   ├── upload.png
   │   ├── processing.png
   │   └── result.png
-
+```
 ---
 
 ## Features
