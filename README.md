@@ -77,5 +77,8 @@ The segmentation is powered by the [YOLOv8n-seg](https://docs.ultralytics.com/mo
 | **[NumPy](https://numpy.org/)**               | Efficient manipulation of image arrays                    |
 | **[Pillow (PIL)](https://python-pillow.org/)**| Image processing, resizing, and file format handling      |
 
+---
 
+## License
 
+This project is licensed under the MIT License — free to use and adapt.
