@@ -3,4 +3,9 @@ opencv-python==4.10.0.84
 ultralytics==8.1.28
 numpy>=1.24.0
 Pillow>=10.0.0
-
+torch==2.7.0
+torchvision==0.22.0
+matplotlib==3.10.3
+pandas==2.2.3
+seaborn==0.13.2
+tqdm==4.67.1
