@@ -1,5 +1,5 @@
 streamlit==1.34.0
-opencv-python==4.10.0.75
+opencv-python==4.10.0.84
 ultralytics==8.1.28
 numpy>=1.24.0
 Pillow>=10.0.0
