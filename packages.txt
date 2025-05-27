@@ -1,4 +1,5 @@
 libgl1
 libglib2.0-0
 ffmpeg
-python3-distutils  # Add this for distutils
+python3-distutils
+
