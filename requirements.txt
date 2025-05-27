@@ -1,6 +1,6 @@
 streamlit==1.34.0
 opencv-python==4.10.0.84
-ultralytics==8.1.28
+ultralytics==8.0.20
 numpy==1.24.0
 Pillow==10.0.0
 torch==2.2.0
@@ -10,3 +10,4 @@ pandas==2.2.0
 seaborn==0.13.0
 tqdm==4.66.1
 setuptools==68.2.2
+
