@@ -10,15 +10,15 @@ from torch.serialization import add_safe_globals
 from ultralytics.nn.tasks import SegmentationModel, DetectionModel
 from torch.nn.modules.container import Sequential
 
-# Patch for PyTorch serialization (for custom YOLOv8 models)
+# Patch pour la désérialisation PyTorch (YOLOv8 custom)
 add_safe_globals([SegmentationModel, DetectionModel, Sequential])
 
-# Page configuration
+# Configuration de la page Streamlit
 st.set_page_config(layout="wide")
 st.title("🎥 Advanced Video Segmentation Application")
 st.write("Upload a video to extract an object and change its background")
 
-# Load YOLOv8 model safely
+# Chargement du modèle YOLOv8 localement
 @st.cache_resource
 def load_model():
     try:
@@ -33,7 +33,7 @@ model = load_model()
 if model is None:
     st.stop()
 
-# Cartoon effect function
+# Effet cartoon pour l'arrière-plan
 def apply_cartoon_effect(frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     blur = cv2.medianBlur(gray, 3)
@@ -41,13 +41,13 @@ def apply_cartoon_effect(frame):
     color = cv2.bilateralFilter(frame, 5, 150, 150)
     return cv2.bitwise_and(color, color, mask=edges)
 
-# COCO classes dictionary
+# Classes COCO courantes
 COCO_CLASSES = {
     0: "person", 1: "bicycle", 2: "car", 3: "motorcycle",
     16: "dog", 17: "cat", 18: "horse", 19: "sheep", 20: "cow"
 }
 
-# User interface
+# Interface utilisateur
 uploaded_file = st.file_uploader("Choose a video", type=["mp4", "avi", "mov"])
 
 if uploaded_file:
