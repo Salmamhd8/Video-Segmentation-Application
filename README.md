@@ -6,6 +6,13 @@ Developed with **Streamlit**, **OpenCV**, and **Ultralytics YOLOv8**, the app pr
 
 ---
 
+## Accès en ligne à l'application
+
+Découvrez l'application en ligne ici : [Voir sur Hugging Face](https://huggingface.co/spaces/Salmamhd8/video-segmentation-app)
+
+
+---
+
 ## Repository Structure
 
   ```bash
